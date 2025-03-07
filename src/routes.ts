@@ -14,4 +14,7 @@ router.get('/players/:id', PlayerController.getPlayerById);
 // Criando jogador
 router.post('/players', PlayerController.postPlayer);
 
+// Deletando jogador
+router.delete('/players/:id', PlayerController.deletePlayer);
+
 export default router;
