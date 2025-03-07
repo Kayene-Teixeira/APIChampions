@@ -17,4 +17,7 @@ router.post('/players', PlayerController.postPlayer);
 // Deletando jogador
 router.delete('/players/:id', PlayerController.deletePlayer);
 
+// Atualizando jogador
+router.patch('/players/:id', PlayerController.updatePlayer);
+
 export default router;
